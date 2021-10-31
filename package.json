@@ -6,12 +6,13 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "test": "jest"
+    "test": "jest --silent --verbose --detectOpenHandles"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^10.0.0",
+    "faker": "^5.5.3",
     "jest": "^27.3.1",
     "nodemon": "^2.0.14"
   },
